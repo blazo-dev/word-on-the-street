@@ -1,6 +1,6 @@
 # 🟨 Word on the Street 🎮
 
-A simple console-based word guessing game made with Node.js.  
+A console-based word guessing game made with Node.js.  
 Try to guess a secret programming word one letter at a time — but be careful, you only get **5 lives**!
 
 ---
@@ -30,7 +30,7 @@ You must guess the word one letter at a time. For every incorrect guess, you los
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/word-on-the-street.git
+git clone https://github.com/blazo-dev/word-on-the-street.git
 cd word-on-the-street
 ```
 
