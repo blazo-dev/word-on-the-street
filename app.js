@@ -21,7 +21,7 @@ function getSecretWord() {
     return secretWords[Math.floor(Math.random() * secretWords.length)];
 }
 
-function handleWordStatus(secretWord) {
+function handleGameStatus(secretWord) {
     const statusWord = [];
     const wrongLetters = [];
     let lives = 5;
@@ -59,7 +59,7 @@ function validateInput(input) {
 
 async function runGame() {
     const secretWord = getSecretWord();
-    const updateStatus = handleWordStatus(secretWord);
+    const updateStatus = handleGameStatus(secretWord);
     const { statusWord, lives, wrongLetters } = updateStatus("", false);
     let continuePlaying = true;
     let userInput = "";
