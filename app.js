@@ -1,7 +1,7 @@
-const readline = require("node:readline/promises");
-const { stdin: input, stdout: output } = require("node:process");
+import { createInterface } from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
 
-const rl = readline.createInterface({ input, output });
+const rl = createInterface({ input, output });
 
 const secretWords = [
     "function",
@@ -36,9 +36,12 @@ function handleGameStatus(secretWord) {
             if (secretWord[key] === character) statusWord[key] = character;
         }
 
-        if (wrongLetters.includes(character)) {
+        if (
+            wrongLetters.includes(character) ||
+            statusWord.includes(character)
+        ) {
             console.log(
-                `🔁 The letter "${character.toUpperCase()}" has already been tried. Pick a new one!`
+                `\n🔁 The letter "${character.toUpperCase()}" has already been tried. Pick a new one!`
             );
         } else if (!secretWord.includes(character)) {
             lives--;
