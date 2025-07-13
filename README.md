@@ -2,7 +2,8 @@
 
 A console-based word guessing game made with Node.js.  
 Try to guess a secret programming word one letter at a time — but be careful, you only get **5 lives**!
-
+> 🧩 **This project was developed as part of the** > **Workforce Opportunity Services (WOS) – Technology Talent Development Program in partnership with Auto Club Enterprises (ACE)**
+> A 14-week intensive initiative that combines enterprise-level technical training, hands-on project work, and agile team simulations.
 ---
 
 ## 🧩 Game Description
@@ -88,6 +89,7 @@ This project is open-source and free to use.
 
 ## 🙌 Acknowledgements
 
-This project was developed as part of the [**WOS Can Code**](https://www.linkedin.com/company/workforce-opportunity-services) training program for **Junior Software Engineers**.
+[**Workforce Opportunity Services (WOS)**](https://www.linkedin.com/company/workforce-opportunity-services)
+Technology Talent Development Program in partnership with [**Auto Club Enterprises (ACE)**](https://www.linkedin.com/company/aaa-auto-club-enterprises/).
 
 Created with 💻 and ☕ by [Bryan Lazo](https://github.com/blazo-dev).
